@@ -6,6 +6,7 @@ import Experience from "../pages/Experience.tsx";
 import Contact from "../pages/Contact.tsx";
 import PrivacyPolicy from "../pages/policy/PrivacyPolicy.tsx";
 import TermsOfService from "../pages/policy/TermsOfService.tsx";
+import Projects from "../pages/Projects.tsx";
 
 const router = createBrowserRouter([
     {
@@ -19,6 +20,10 @@ const router = createBrowserRouter([
             {
                 path:"/about",
                 element:<About/>
+            },
+            {
+                path:"/projects",
+                element:<Projects/>
             },
             {
                 path:"/experience",
