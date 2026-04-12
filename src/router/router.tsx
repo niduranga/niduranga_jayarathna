@@ -43,6 +43,8 @@ const router = createBrowserRouter([
         path:"/terms",
         element:<TermsOfService/>
     }
-])
+], {
+    basename: "/niduranga_jayarathna"
+})
 
 export default router
