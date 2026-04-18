@@ -1,73 +1,61 @@
-# React + TypeScript + Vite
+# 🚀 Niduranga Jayarathna | Senior Full-stack Developer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+[![Portfolio](https://img.shields.io/badge/Portfolio-Live-blue?style=for-the-badge)](https://niduranga.github.io/niduranga_jayarathna/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/niduranga-jayarathna-1606b21b9/)
+[![Email](https://img.shields.io/badge/Email-Contact-emerald?style=for-the-badge&logo=gmail)](mailto:nidurangajayarathna@email.com)
 
-Currently, two official plugins are available:
+## 👨‍💻 About Me
+Highly driven **Senior Full-stack Developer** and Engineering Student specializing in building high-performance, scalable web applications. My development philosophy is centered around **SOLID principles**, **Clean Architecture**, and **Test-Driven Development (TDD)** to deliver professional-grade, maintainable code.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- 🛠️ Currently focusing on **Laravel Core Internals** and **React Ecosystem**.
+- 🤖 Building high-performance **Cryptocurrency Trading Bots**.
+- 🏛️ Strong advocate for **Clean Architecture** and **Scalable System Design**.
+- 🎓 Engineering University Student with a deep interest in **Low-level Systems** and **Advanced Mathematics**.
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Tech Stack & Expertise
 
-## Expanding the ESLint configuration
+### Backend Development
+- **Languages/Frameworks:** PHP (Laravel 11+), Node.js, TypeScript.
+- **Standards:** SOLID Principles, PSR Standards, Clean Architecture.
+- **Database:** PostgreSQL, MySQL, Redis (Caching & Queues).
+- **Testing:** Pest, PHPUnit (TDD Expert).
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+### Frontend Development
+- **Library/Framework:** React.js, ReactNative, Vue.js.
+- **State Management:** Redux Toolkit, Context API.
+- **Styling:** Tailwind CSS (Modern, Responsive Design).
+- **Tooling:** Vite, Webpack, Inertia.js.
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+### Systems & Low-level
+- **Linux:** Kernel internals, System registers, Bash scripting.
+- **DevOps:** Docker, GitHub Actions (CI/CD), AWS/DigitalOcean deployment.
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+---
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+## 🌟 Featured Projects
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+### 🛡️ Laravel DevGuard
+An AI-powered TDD companion package for Laravel.
+- Automatically generates Pest/PHPUnit tests for Action classes using Gemini AI.
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+### 📊 Astrans POS
+A high-performance Point of Sale system designed for scalability using Laravel and React.
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+---
+
+## 📈 Open Source Contributions
+Active contributor to the **Laravel Framework** core (specifically attribute-based middleware and listener constructors for Laravel 13.x).
+
+---
+
+## 📬 Connect With Me
+- 🌐 Portfolio: [niduranga.github.io](https://niduranga.github.io/niduranga_jayarathna/)
+- 💼 LinkedIn: [Niduranga Jayarathna](https://www.linkedin.com/in/niduranga-jayarathna-1606b21b9/)
+- 📞 Phone/WhatsApp: [+94 75 282 8091](https://wa.me/94752828091)
+
+---
+
+### ⚡ Fun Fact
+When I'm not coding high-level architecture, you'll find me diving into **Linux Kernel internals** or solving **University-level calculus** problems for fun.
