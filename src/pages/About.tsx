@@ -2,9 +2,9 @@ import React from 'react';
 
 const About: React.FC = () => {
     const skills = [
-        { name: "Frontend", tools: "React, Tailwind, TypeScript" },
+        { name: "Frontend", tools: "React, ReactNative, Tailwind, TypeScript" },
         { name: "Backend", tools: "php, Laravel" },
-        { name: "Database", tools: "MySQL" },
+        { name: "Database", tools: "MySQL, pgsql, sqlite" },
     ];
 
     return (
@@ -27,12 +27,12 @@ const About: React.FC = () => {
                             </p>
                             <div className="flex items-center space-x-8 text-slate-900 font-bold">
                                 <div>
-                                    <span className="block text-3xl">1+</span>
+                                    <span className="block text-3xl">3+</span>
                                     <span className="text-slate-400 text-xs uppercase tracking-widest">Years Exp.</span>
                                 </div>
-                                <div className="h-10 w-[1px] bg-slate-200"></div>
+                                <div className="h-10 w-px bg-slate-200"></div>
                                 <div>
-                                    <span className="block text-3xl">10+</span>
+                                    <span className="block text-3xl">25+</span>
                                     <span className="text-slate-400 text-xs uppercase tracking-widest">Projects</span>
                                 </div>
                             </div>

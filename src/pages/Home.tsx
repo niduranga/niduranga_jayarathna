@@ -44,14 +44,11 @@ const Home: React.FC = () => {
                             </p>
 
                             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-                                <Link to="/services" className="px-10 py-4 bg-blue-600 text-white rounded-2xl font-bold hover:bg-blue-700 transition-all shadow-xl shadow-blue-500/25 active:scale-95 flex items-center justify-center gap-2">
-                                    Our Services
+                                <Link to="/contact" className="px-10 py-4 bg-blue-600 text-white rounded-2xl font-bold hover:bg-blue-700 transition-all shadow-xl shadow-blue-500/25 active:scale-95 flex items-center justify-center gap-2">
+                                    Contact Me
                                     <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/>
                                     </svg>
-                                </Link>
-                                <Link to="/contact" className="px-10 py-4 bg-white text-slate-700 border border-slate-200 rounded-2xl font-bold hover:bg-slate-50 transition-all flex items-center justify-center">
-                                    Contact Me
                                 </Link>
                             </div>
                         </div>
@@ -87,7 +84,7 @@ const Home: React.FC = () => {
                 </div>
 
                 {/* Service Cards Grid */}
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
+                <div className="grid grid-cols-1 md:grid-cols-4 gap-4 max-w-8xl mx-auto">
                     {/* Service 1: Web Development */}
                     <div className="group p-8 bg-white border border-slate-100 rounded-3xl shadow-sm hover:shadow-xl hover:-translate-y-2 transition-all duration-300">
                         <div className="w-14 h-14 bg-blue-50 text-blue-600 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-blue-600 group-hover:text-white transition-colors">
@@ -97,7 +94,31 @@ const Home: React.FC = () => {
                         </div>
                         <h4 className="text-xl font-bold text-slate-900 mb-3 font-display">Web Development</h4>
                         <p className="text-slate-600 leading-relaxed mb-6">
-                            Building responsive, high-performance websites using React, Next.js, and modern CSS frameworks.
+                            Building high-performance mobile applications using React Native, and modern CSS frameworks like Native wind.
+                            use Redux to state management.
+                        </p>
+                    </div>
+
+                    <div className="group p-8 bg-white border border-slate-100 rounded-3xl shadow-sm hover:shadow-xl hover:-translate-y-2 transition-all duration-300">
+                        <div className="w-14 h-14 bg-blue-50 text-blue-600 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-blue-600 group-hover:text-white transition-colors">
+                            <svg
+                                className="w-6 h-6"
+                                fill="none"
+                                viewBox="0 0 24 24"
+                                stroke="currentColor"
+                            >
+                                <path
+                                    strokeLinecap="round"
+                                    strokeLinejoin="round"
+                                    strokeWidth="2"
+                                    d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z"
+                                />
+                            </svg>
+                        </div>
+                        <h4 className="text-xl font-bold text-slate-900 mb-3 font-display">Mobile Development</h4>
+                        <p className="text-slate-600 leading-relaxed mb-6">
+                            Building high-performance mobile applications using React Native, and modern CSS frameworks like Native wind.
+                            Use Redux to state management.
                         </p>
                     </div>
 

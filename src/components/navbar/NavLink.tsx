@@ -1,13 +1,23 @@
-import {Link} from "react-router";
+import { NavLink as BaseNavLink } from "react-router";
 
 interface INavLinkProp {
-    to:string,
-    children:string
+    to: string;
+    children: string;
 }
 
-const NavLink = ({to, children}: INavLinkProp) => {
+const NavLink = ({ to, children }: INavLinkProp) => {
     return (
-        <Link to={to} className='text-gray-700 hover:text-blue-700 font-medium transition-colors'>{children}</Link>
+        <BaseNavLink
+            to={to}
+            className={({ isActive }) =>
+                `${isActive
+                    ? "text-blue-600 font-bold border-b-2 border-blue-600"
+                    : "text-slate-600"
+                } hover:text-blue-600 transition-all py-2`
+            }
+        >
+            {children}
+        </BaseNavLink>
     );
 };
 
